@@ -173,7 +173,6 @@ export const portfolioData = {
         "Advanced Mathematics",
         "Theoretical Physics",
         "Inorganic & Organic Chemistry",
-        "Analytical Problem Solving"
       ]
     },
     {
@@ -187,13 +186,13 @@ export const portfolioData = {
       code: "03.SSC",
       level: "Class 10 / Secondary",
       status: "COMPLETED",
-      location: "India",
-      coursework: [
-        "Mathematics",
-        "Physical Sciences",
-        "Biological Sciences",
-        "Computer Applications"
-      ]
+      location: "Visakhapatnam, India",
+      // coursework: [
+      //   "Mathematics",
+      //   "Physical Sciences",
+      //   "Biological Sciences",
+      //   "Computer Applications"
+      // ]
     }
   ],
 
@@ -208,7 +207,7 @@ export const portfolioData = {
       metrics: "OCR + KMEANS + COSINE DRIFT",
       status: "PRODUCTION_READY",
       demoUrl: "https://receipt-iq.demo.example.com",
-      githubUrl: "https://github.com/RonakHirawat/receipt-iq"
+      githubUrl: "https://github.com/RonakHirawat/ReciptIQ"
     },
     {
       id: "proj-summariser",
@@ -233,7 +232,7 @@ export const portfolioData = {
       status: "CLIENT_PROJECT",
       isClientProject: true,
       demoUrl: "https://santoshhospitality.com",
-      githubUrl: "https://github.com/RonakHirawat/santosh-hospitality"
+      githubUrl: "https://github.com/RonakHirawat/Santosh_Hospitality"
     },
     {
       id: "proj-review-intel",
@@ -245,7 +244,7 @@ export const portfolioData = {
       metrics: "IN PROGRESS // UNDER ACTIVE DEVELOPMENT",
       status: "IN_MAKING",
       demoUrl: "https://review-intelligence.demo.example.com",
-      githubUrl: "https://github.com/RonakHirawat/review-intelligence"
+      githubUrl: "https://github.com/RonakHirawat/ReviewMindAI"
     }
   ],
 
@@ -253,7 +252,7 @@ export const portfolioData = {
     email: "hirawat008ronak@gmail.com",
     github: "https://github.com/RonakHirawat",
     githubHandle: "github.com/RonakHirawat",
-    linkedin: "https://linkedin.com/in/Ronak-Hirawat",
+    linkedin: "https://www.linkedin.com/in/ronak-hirawat-2296672b5/",
     linkedinHandle: "linkedin.com/in/Ronak-Hirawat",
     inviteText: "Available for engineering roles, AI/ML research collaborations, technical speaking, and intelligent product development. Transmit your message below.",
     terminalCommands: [
@@ -274,7 +273,7 @@ export const portfolioData = {
       {
         cmd: "connect_linkedin('linkedin.com/in/Ronak-Hirawat')",
         label: "Open LinkedIn Profile",
-        action: "https://linkedin.com/in/Ronak-Hirawat",
+        action: "https://www.linkedin.com/in/ronak-hirawat-2296672b5/",
         copyValue: "https://linkedin.com/in/Ronak-Hirawat",
         returnMsg: "AUTHENTICATING LINKEDIN HANDSHAKE... SESSION ESTABLISHED."
       }

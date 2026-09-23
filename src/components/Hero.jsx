@@ -113,27 +113,7 @@ export function Hero() {
                   </div>
                 </div>
 
-                {/* Metric 2: Systems */}
-                <div className="flex items-center justify-between p-3 bg-[#0A0B0D] border border-[#23262D]/70">
-                  <div className="flex items-center gap-2.5">
-                    <span className="w-1.5 h-1.5 bg-[#FFB020]" />
-                    <span className="text-xs text-[#6B7078] uppercase">System State</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <StatusBeacon status={portfolioData.personal.systemsStatus} active={true} />
-                  </div>
-                </div>
-
-                {/* Metric 3: QDC */}
-                <div className="flex items-center justify-between p-3 bg-[#0A0B0D] border border-[#23262D]/70">
-                  <div className="flex items-center gap-2.5">
-                    <span className="w-1.5 h-1.5 bg-[#FFB020]" />
-                    <span className="text-xs text-[#6B7078] uppercase">QDC Leadership</span>
-                  </div>
-                  <div className="text-xs font-semibold text-[#FFB020] uppercase tracking-wide">
-                    {portfolioData.personal.qdcRole}
-                  </div>
-                </div>
+                
 
                 {/* Metric 4: Location & Track */}
                 <div className="flex items-center justify-between p-3 bg-[#0A0B0D] border border-[#23262D]/70">
