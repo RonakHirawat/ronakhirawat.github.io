@@ -10,7 +10,7 @@ export const portfolioData = {
     systemsStatus: "Online",
     gpa: "9.41 / 10.0",
     qdcRole: "President (2025–26)",
-    avatarUrl: "/avatar.JPG",
+    avatarUrl: "/avatar.jpeg",
   },
   
   about: {
@@ -206,7 +206,6 @@ export const portfolioData = {
       tech: ["Flask", "React", "Claude Vision API", "SQLite", "KMeans", "Cosine Similarity", "OCR", "Python"],
       metrics: "OCR + KMEANS + COSINE DRIFT",
       status: "PRODUCTION_READY",
-      demoUrl: "https://receipt-iq.demo.example.com",
       githubUrl: "https://github.com/RonakHirawat/ReciptIQ"
     },
     {
@@ -218,7 +217,6 @@ export const portfolioData = {
       tech: ["Whisper", "GPT-4o", "Streamlit", "Python", "Prompt Engineering", "TTS"],
       metrics: "REAL-TIME TRANSCRIPTION & TTS",
       status: "OPERATIONAL",
-      demoUrl: "https://transcript-summariser.demo.example.com",
       githubUrl: "https://github.com/RonakHirawat/transcript-summariser"
     },
     {
@@ -231,7 +229,7 @@ export const portfolioData = {
       metrics: "CLIENT COMMISSION // PRODUCTION B2B",
       status: "CLIENT_PROJECT",
       isClientProject: true,
-      demoUrl: "https://santoshhospitality.com",
+      demoUrl: "https://santosh-hospitality-alpha.vercel.app",
       githubUrl: "https://github.com/RonakHirawat/Santosh_Hospitality"
     },
     {
@@ -243,8 +241,24 @@ export const portfolioData = {
       tech: ["Python", "NLP", "Sentence Transformers", "Scikit-learn"],
       metrics: "IN PROGRESS // UNDER ACTIVE DEVELOPMENT",
       status: "IN_MAKING",
-      demoUrl: "https://review-intelligence.demo.example.com",
       githubUrl: "https://github.com/RonakHirawat/ReviewMindAI"
+    },
+    {
+      id: "proj-pruning-network",
+      logId: "LOG_005",
+      title: "Pruning Network",
+      tagline: "Deep Learning Framework for Neural Network Pruning & Model Optimization",
+      description: "A deep learning project that reduces neural network complexity through structured pruning while preserving predictive performance. The system optimizes model size, inference speed, and computational efficiency using PyTorch-based pruning techniques and evaluates accuracy before and after optimization.",
+      tech: [
+        "Python",
+        "PyTorch",
+        "Deep Learning",
+        "Neural Network Pruning",
+        "Model Optimization"
+      ],
+      metrics: "PYTORCH // STRUCTURED PRUNING & EFFICIENCY",
+      status: "OPERATIONAL",
+      githubUrl: "https://github.com/RonakHirawat/self-pruning-neural-network"
     }
   ],
 

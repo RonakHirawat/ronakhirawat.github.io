@@ -17,7 +17,7 @@ export function Projects() {
           number="06"
           label="EVENT LOG & DEPLOYMENTS"
           title="The event log"
-          subtitle="ARTIFACT_REGISTRY // 04_PROJECTS_CATALOGED"
+          subtitle={`ARTIFACT_REGISTRY // ${String(portfolioData.projects.length).padStart(2, '0')}_PROJECTS_CATALOGED`}
         />
 
         {/* Project Event Log Entries */}
@@ -94,7 +94,21 @@ export function Projects() {
                 {/* Right: Action Buttons & Telemetry */}
                 <div className="lg:col-span-4 flex flex-col justify-between h-full pt-2 lg:pt-0 space-y-4">
                   <div className="space-y-2.5 font-mono text-xs">
-                    
+                    {project.demoUrl && (
+                      <a
+                        href={project.demoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full inline-flex items-center justify-between px-4 py-2.5 bg-[#FFB020] text-[#0A0B0D] font-bold border border-[#FFB020] hover:bg-[#0A0B0D] hover:text-[#FFB020] transition-all group/btn shadow-[0_0_15px_rgba(255,176,32,0.15)]"
+                      >
+                        <span className="flex items-center gap-2">
+                          <span className="w-1.5 h-1.5 bg-[#0A0B0D] group-hover/btn:bg-[#FFB020] transition-colors rounded-none animate-pulse" />
+                          <span className="font-semibold tracking-wide">Live Demo</span>
+                        </span>
+                        <ExternalLink size={14} className="text-[#0A0B0D] group-hover/btn:text-[#FFB020] transition-colors" />
+                      </a>
+                    )}
+
                     {project.githubUrl && (
                       <a
                         href={project.githubUrl}
@@ -118,7 +132,7 @@ export function Projects() {
 
               {/* Bottom Subtle Bar */}
               <div className="mt-6 pt-3 border-t border-[#23262D] flex items-center justify-between font-mono text-[10px] text-[#6B7078]">
-                <span>ENTRY: #00{idx + 1} OF 004</span>
+                <span>ENTRY: #00{idx + 1} OF {String(portfolioData.projects.length).padStart(3, '0')}</span>
                 <span className="text-[#FFB020]">ENGINE: PY // ML // FULLSTACK</span>
               </div>
             </article>
